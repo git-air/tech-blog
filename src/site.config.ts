@@ -5,7 +5,7 @@ export const siteConfig: SiteConfig = {
 	// Used as both a meta property (src/components/BaseHead.astro L:31 + L:49) & the generated satori png (src/pages/og-image/[slug].png.ts)
 	author: "EYLE",
 	// Meta property used to construct the meta title property, found in src/components/BaseHead.astro L:11
-	title: "Tech Blog",
+	title: "EYLE's Blog",
 	// Meta property used as the default description meta property
 	description: "技術ブログ",
 	// HTML lang property, found in src/layouts/Base.astro L:18
@@ -14,9 +14,9 @@ export const siteConfig: SiteConfig = {
 	ogLocale: "ja-JP",
 	// Date.prototype.toLocaleDateString() parameters, found in src/utils/date.ts.
 	date: {
-		locale: "ja-JP",
+		locale: "en-US",
 		options: {
-			day: "numeric",
+			day: "2-digit",
 			month: "short",
 			year: "numeric",
 		},
